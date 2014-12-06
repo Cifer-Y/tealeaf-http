@@ -1,1 +1,1 @@
-gh-pages branch is where all the book source shoule be placed
+gh-pages branch is where all the book source should be placed
