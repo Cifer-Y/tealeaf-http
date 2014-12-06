@@ -1,0 +1,149 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+html, body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  position: relative;
+  min-height: 100%;
+  height: auto !important;
+  background: #F5F5F5;
+}
+.wrapper-inside {
+  width: 1000px;
+  margin: 0 auto;
+}
+.nav ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none;
+}
+.nav ul li {
+  float: left;
+  margin-right: 25px;
+  font-size: 14px;
+}
+.nav ul li a {
+  color: #FFF;
+  text-decoration: none;
+  font-family: "myriad-pro", Arial, sans-serif;
+  display: block;
+}
+#header {
+  background: url("../images/code-bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 10px;
+}
+.top-bg {
+  min-height: 70px;
+}
+.content {
+  padding: 0 0 70px 0;
+}
+.book {
+  width: 100%;
+  background: url("../images/light-code-bg.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+}
+.top-large {
+  float: right;
+  width: 535px;
+  margin-top: 75px;
+  font-family: "Crete Round", Georgia, "Times New Roman", Times, serif;
+}
+.top-large .book-title {
+  font-size: 36px;
+  color: #E5533C;
+  margin-top: 35px;
+}
+.top-large .book-author {
+  color: #14877E;
+  font-size: 18px;
+  margin-top: 20px;
+  position: relative;
+}
+.top-large .book-author:after {
+  content: " ";
+  width: 100%;
+  border-bottom: 1px solid #E1E1E0;
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+}
+.top-large p {
+  font-family: "myriad-pro", Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 40px;
+}
+.top-large .book-description {
+  color: #333;
+  font-size: 18px;
+}
+.read-btn {
+  background: #F27649;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  font-family: "myriad-pro", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin: 40px auto 0;
+}
+.book-image {
+  float: left;
+  margin-top: 75px;
+  width: 450px;
+}
+#footer {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+}
+#footer .nav {
+  background: #333;
+  min-height: 70px;
+}
+#footer .nav ul {
+  width: 595px;
+  margin-top: 25px;
+}
+#footer .nav ul li {
+  color: #E0E0E0;
+}
+#footer .nav #copyright {
+  float: right;
+  color: #FFF;
+  font-family: "myriad-pro", sans-serif;
+  font-size: 14px;
+  margin-top: 25px;
+  color: #E0E0E0;
+}
